@@ -1,0 +1,21 @@
+{
+  "name": "raw_23andme_from_pgp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.21.0",
+    "jszip": "^3.10.1",
+    "personal_genomes_project_sdk": "latest"
+  },
+  "author": "Lorena Sandoval",
+  "license": "ISC",
+  "description": "Download PGP 23andMe raw files and consolidate genome-build metadata and participant profiles.",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  }
+}
