@@ -1,4 +1,4 @@
-# 23andme_data
+# 23andme_data from the PGP
 
 ## `index.js`
 
